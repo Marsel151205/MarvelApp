@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Favorite"
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item
+        android:title="History"
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_history"/>
+
+    <item
+        android:title="Universe Series"
+        android:id="@+id/universeFragment"
+        android:icon="@drawable/ic_universe"/>
+
+    <item
+        android:title="Shop"
+        android:id="@+id/shopFragment"
+        android:icon="@drawable/ic_shop"/>
+
+</menu>
