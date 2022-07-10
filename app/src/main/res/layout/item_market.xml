@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:elevation="0dp">
+
+    <ImageView
+        android:id="@+id/iv_image_market"
+        android:layout_width="161dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/x_men_red" />
+
+    <TextView
+        android:id="@+id/tv_name_comics_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/iv_image_market"
+        app:layout_constraintTop_toTopOf="@id/iv_image_market"
+        tools:text="AVENGERS\n#12 (2019) " />
+
+    <TextView
+        android:id="@+id/tv_price_comics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Price: $4.99"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/tv_name_comics_market"
+        app:layout_constraintTop_toBottomOf="@id/tv_name_comics_market" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_buy"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/ic_buy"
+        android:text="BUY"
+        app:layout_constraintStart_toStartOf="@id/tv_name_comics_market"
+        app:layout_constraintTop_toBottomOf="@id/tv_price_comics" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

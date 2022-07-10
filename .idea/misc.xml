@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/gradient.xml" value="0.119" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/ic_comic_book.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/ic_favorite.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/registration_dialog.xml" value="0.119" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/splash_screen.xml" value="0.119" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/transparent_on_boarding_button.xml" value="0.119" />
@@ -11,11 +13,20 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_pager.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_character.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_comics_market.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_credit_card.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_loader.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_on_boardin1.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_on_boarding3.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_registration.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_shop.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/fragment_successfully_buy.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/item_comics.xml" value="0.22521367521367522" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/item_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/item_market.xml" value="0.2734375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/registration_dialog.xml" value="0.264" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/menu/bottom_navigation.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MarvelApp/app/src/main/res/menu/navigation_menu.xml" value="0.27447916666666666" />

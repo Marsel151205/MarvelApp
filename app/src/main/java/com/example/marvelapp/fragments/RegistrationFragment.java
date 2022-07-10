@@ -93,7 +93,7 @@ public class RegistrationFragment extends Fragment {
                 .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
-                        Navigation.findNavController(requireView()).navigate(R.id.homeFragment);
+                        Navigation.findNavController(requireView()).navigate(R.id.loaderFragment);
                     }
                 }).addOnFailureListener(new OnFailureListener() {
             @Override

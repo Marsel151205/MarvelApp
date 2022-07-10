@@ -1,5 +1,6 @@
 package com.example.marvelapp.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.marvelapp.MainActivity;
 import com.example.marvelapp.R;
 
 public class OnBoardingFragment2 extends Fragment {
@@ -23,12 +25,13 @@ public class OnBoardingFragment2 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_on_boarding2, container, false);
 
         viewPager = getActivity().findViewById(R.id.view_pager);
-        btnSkip = view.findViewById(R.id.btn_next);
+        btnSkip = getActivity().findViewById(R.id.btn_next2);
 
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewPager.setCurrentItem(1);
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                startActivity(intent);
             }
         });
         return view;

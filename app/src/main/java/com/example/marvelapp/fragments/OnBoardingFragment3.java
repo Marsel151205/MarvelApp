@@ -28,7 +28,7 @@ public class OnBoardingFragment3 extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_on_boarding3, container, false);
 
-        btnDone = view.findViewById(R.id.btn_done);
+        btnDone = getActivity().findViewById(R.id.btn_next2);
 
         btnDone.setOnClickListener(new View.OnClickListener() {
             @Override

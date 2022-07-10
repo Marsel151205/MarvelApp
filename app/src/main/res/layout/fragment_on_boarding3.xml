@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:id="@+id/constraint_on_boarding3"
     android:layout_height="match_parent"
-    android:background="@drawable/rectangle"
+    android:background="@android:color/transparent"
+    android:elevation="0dp"
     tools:context=".fragments.OnBoardingFragment1">
 
     <FrameLayout
@@ -38,16 +39,8 @@
         android:src="@drawable/on_boarding3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_menu" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="15dp"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="120dp"
-        android:layout_marginTop="15dp"
-        android:id="@+id/btn_done"
-        android:background="@drawable/transparent_on_boarding_button"
-        android:text="DONE"
-        app:layout_constraintTop_toBottomOf="@id/iv_pointer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
